@@ -1,0 +1,47 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fancy Form</title>
+
+  <!-- You may add more stuff here -->
+  <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- You may reorganise the whole HTML, as long as your form achieves the same effect. -->
+  <div class="App">
+    <h1>Transaction Form</h1>
+    
+ 
+  <form onsubmit="return !1">
+    <div class="formUnit">
+      <h2 class="label-wrapper">
+        <label for="input-address">ETH Address</label>
+      </h2>
+      <input id="input-address" type="text" name="address"/>
+    </div>
+    <div class="formUnit">
+      <h2 class="label-wrapper">
+        <label for="input-amount">Amount to send</label>
+      </h2>
+      <input id="input-amount"  type="text" name="amount"/>
+    </div>
+    <div class="formUnit">
+      <h2 class="label-wrapper">
+        <label for="input-otp">OTP Authentication</label>
+      </h2>
+      <input id="input-otp" type="number" name="OTP" />
+    </div>
+    
+
+    <button class="btn" type="submit">SEND TOKENS</button>
+  </form>
+
+  
+</div>
+  <script src="script.js"></script>
+</body>
+
+</html>
