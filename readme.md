@@ -21,12 +21,12 @@ I failed to connect to the link [https://interview.switcheo.com/test.json](https
 Reason: CORS header 'Access-Control-Allow-Origin' missing.  
 My attempt to fetch the data can be seen at the end. After searching and trying, I still cannot solve the above problem.
 For now, I just use the local json data to achieve the result.
-Open the index.html or node '.\datasource.js' to see the result, the output in console should be the same with the sample output.
+Open the index.html or `node .\datasource.js` to see the result, the output in console should be the same with the sample output.
 Sorry about that. I didn't have much experience about connecting to the data source, but I can learn it later.
 
 ## Problem 4:
 
-I solved this problem even I never touch interacting with chain before. I just self-learned some basic ideas about how to interact with chain, do a quick start and solve it luckily. I install ts-node globally, so ts-node may cannot run on another environment. In that case, you can still node .\js-retrive-holders.js.
+I solved this problem even I never touch interacting with chain before. I just self-learned some basic ideas about how to interact with chain, do a quick start and solve it luckily. I install ts-node globally, so ts-node may not run on another environment. In that case, you can still `node .\js-retrive-holders.js` after `npm install` in the root directory.
 
 ## Problem 5:
 
