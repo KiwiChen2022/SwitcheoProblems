@@ -9,13 +9,15 @@ Code just explains everything about this problem.
 ## Problem 2:
 
 Because I implement it in two methods, with and without React, there are two folders for problem 2, problem2 and problem2_React.  
+
 To see my implementation of the form without React, just open problem2/index.html. I add the input validation using Regular expression and isNaN(). After clicking the Send button, if the inputs are all valid, the page will jump to the successful submission page.
 
 As for the React project, I have not completed the interactive part of it. Because I made the button and input two different components, I just found it is troublesome to let two components communicate with each other and share some information in React. I believe this is where react-redux should work. I will learn react-redux later to solve the problem. You can see my form using React via [https://github.com/KiwiChen2022/TransferFormReact](https://github.com/KiwiChen2022/TransferFormReact)
 
 ## Problem 3:
 
-I failed to connect to the link [https://interview.switcheo.com/test.json](https://interview.switcheo.com/test.json), just copy the json file locally to solve the problem. 
+I failed to connect to the link [https://interview.switcheo.com/test.json](https://interview.switcheo.com/test.json), just copy the json file locally to solve the problem.   
+
 Reason: CORS header 'Access-Control-Allow-Origin' missing.  
 My attempt to fetch the data can be seen at the end. After searching and trying, I still cannot solve the above problem.
 For now, I just use the local json data to achieve the result.
