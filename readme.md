@@ -12,9 +12,9 @@ Because I implement it in two methods, with and without React, there are two fol
 
 To see my implementation of the form without React, just open problem2/index.html. I add the input validation using Regular expression and isNaN(). After clicking the Send button, if the inputs are all valid, the page will jump to the successful submission page.
 
-As for the React project, I have not completed the interactive part of it. Because I made the button and input two different components, I just found it is troublesome to let two components communicate with each other and share some information in React. I believe this is where react-redux should work. I will learn react-redux later to solve the problem. You can see my form using React via [https://github.com/KiwiChen2022/TransferFormReact](https://github.com/KiwiChen2022/TransferFormReact)  
+As for the React project, I tried to design my own React components to solve this problem at first. But I just found it is troublesome to let two components communicate with each other and share some information in React. I believe this is where react-redux should work. I will learn react-redux later to solve the problem. You can see my first try using React via [https://github.com/KiwiChen2022/TransferFormReact](https://github.com/KiwiChen2022/TransferFormReact)  
 
-I use formly library in React to solve the problem. It can be seen via [https://github.com/KiwiChen2022/FancyFormReactFormly](https://github.com/KiwiChen2022/FancyFormReactFormly).
+Now, I used formly library in React to solve the problem. It can be seen via [https://github.com/KiwiChen2022/FancyFormReactFormly](https://github.com/KiwiChen2022/FancyFormReactFormly).
 
 ## Problem 3:
 
